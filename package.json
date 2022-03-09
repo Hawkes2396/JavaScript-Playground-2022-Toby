@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Hawkes2396/JavaScript-Playground-2022-Toby/issues"
   },
-  "homepage": "https://github.com/Hawkes2396/JavaScript-Playground-2022-Toby#readme"
+  "homepage": "https://github.com/Hawkes2396/JavaScript-Playground-2022-Toby#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
