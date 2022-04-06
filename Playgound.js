@@ -146,9 +146,9 @@
 
 // what is a function?
 // receves and input, calculats, sends and output related to the input
-function div(num1, num2) {
-    return num1/num2
-}
+// function div(num1, num2) {
+//     return num1/num2
+// }
 
-console.log(div(6, 3))
+// console.log(div(6, 3))
 
