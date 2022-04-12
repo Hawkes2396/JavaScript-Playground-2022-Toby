@@ -152,3 +152,27 @@
 
 // console.log(div(6, 3))
 
+// 
+
+/*
+Create a functions that takes an array as a param ["1" "2" "3"] and return 
+the array values all in number data type
+*/
+// const convert = (Array) => Array.map((Element) => parseInt(Element));
+// numbers = convert(["1","2","3"]);
+
+// numbers.array.forEach(element => {
+//     console.log(typeof element)
+// });
+
+//refactor
+//const numbers = arr => arr.map(Number)
+//const numbers = arr => arr.map(elem => +elem)
+
+console(function ;evenOrOdd(num) ; {
+    if(num % 2 === 0) {
+    return "even"
+    }else {
+    return "odd"
+    }
+})
