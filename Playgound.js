@@ -169,10 +169,66 @@ the array values all in number data type
 //const numbers = arr => arr.map(Number)
 //const numbers = arr => arr.map(elem => +elem)
 
-console(function ;evenOrOdd(num) ; {
-    if(num % 2 === 0) {
-    return "even"
-    }else {
-    return "odd"
-    }
-})
+// console(function evenOrOdd(num) ; {
+//     if(num % 2 === 0) {
+//     return "even"
+//     }else {
+//     return "odd")
+//     }
+// }
+
+
+// function whatsTheMonth(num) {
+//     if (num === 1) {
+//         return "January";
+//     } else if (num === 2) {
+//         return "February";
+//     } else if (num === 3) {
+//         return "March";
+//     } else if (num === 4) {
+//         return "April";
+//     } else if (num === 5) {
+//         return "May";
+//     } else if (num === 6) {
+//         return "June";
+//     } else if (num === 7) {
+//         return "July";
+//     } else if (num === 8) {
+//         return "August";
+//     } else if (num === 9) {
+//         return "September";
+//     } else if (num === 10) {
+//         return "October";
+//     } else if (num === 11) {
+//         return "November";
+//     } else if (num === 12) {
+//         return "December";
+//     } else
+//     return "error"
+// }
+// console.log(whatsTheMonth(3))
+
+// function trueOrFalse calculats (num)
+// numbers = calculats(["1","2","3","4",]);
+
+// let even = true
+// let odd = false
+// console.log("trueOrFalse")
+//209 to 217 failed unfortunetly
+function isEven(string) {
+    var len = string.length
+    return (len/2 == Math.round(len/2))
+}
+
+console.log(isEven("Home"));
+
+var isEven = (string) => string.length % 2 == 0
+
+
+function getIndex (array, string) {
+    return array.indexOf(string)
+}
+console.log(getIndex(["Q","W","R"], "W"))// -> 1
+
+var NEWmessage = "Welcome to Hell"
+console.log(NEWmessage)
