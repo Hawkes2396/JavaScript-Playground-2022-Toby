@@ -329,3 +329,16 @@ console.log(personTwo.name)
 
 // first_year.name
 
+class Greeting {
+    constructor(firstName, lastName){
+        this.firstName = firstName
+        this.lastName = lastName
+    }
+    greet(){
+        return 'Hello ${this.firstName} ${this.lastName}'
+    }
+}
+
+const new_person = new Greeting('Toby','Hawkes')
+
+console.log(new_person)
