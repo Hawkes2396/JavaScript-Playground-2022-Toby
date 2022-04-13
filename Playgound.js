@@ -317,3 +317,15 @@ let personFour = new Person('Sam',33)
 
 console.log(personTwo.name)
 
+// class Student{
+//     constructor(name, id, age,){
+//     this.name = name
+//     this.id = id
+//     this.age = age
+//     }
+// }
+
+// const first_year = new Student()
+
+// first_year.name
+
