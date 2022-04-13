@@ -272,3 +272,7 @@ function addByOne(num){
     return num + 1
 }
 console.log(addByOne(3))
+
+const booStr1 = new Boolean(true);
+
+console.log(booStr1.toString())
