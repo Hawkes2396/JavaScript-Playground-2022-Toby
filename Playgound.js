@@ -295,3 +295,22 @@ function greaterThan(num1, num2, arr) {
     return arr.filter(val => val > num1 && val < num2)
 }
 console.log(greaterThan(2,7,[1,2,3,4,5,6,7,8,9,10]))
+
+class className{
+    constructor(param1, param2, ....){
+        this.prop1 = param1
+        this.prop2 = param2
+    }
+}
+
+class Person{
+    constructor(name, age,){
+        this.name = name
+        this.age = age
+    }
+}
+
+Let personOne = new Person('Toby',123)
+Let personTwo = new Person('Kenny',44)
+Let personThree = new Person('Max',56)
+Let personFour = new Person('Sam'33)
