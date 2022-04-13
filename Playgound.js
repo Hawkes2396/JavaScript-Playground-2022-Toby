@@ -291,3 +291,7 @@ function greaterThan(num1,num2,arr){
 //let filtered = [3,4,5,6,7].filter(greaterThan)
 console.log(greaterThan(2,7,[1,2,3,4,5,6,7,8,9,10]))
 
+function greaterThan(num1, num2, arr) {
+    return arr.filter(val => val > num1 && val < num2)
+}
+console.log(greaterThan(2,7,[1,2,3,4,5,6,7,8,9,10]))
