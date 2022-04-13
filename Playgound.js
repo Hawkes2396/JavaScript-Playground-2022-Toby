@@ -276,3 +276,18 @@ console.log(addByOne(3))
 const booStr1 = new Boolean(true);
 
 console.log(booStr1.toString())
+
+function greaterThan(num1,num2,arr){
+    let filtered = []
+    let n = arr.length
+    for (var i = 0; i < n ;i++){
+        if((arr[i]>num1) &&(arr[i]<num2)) {
+            filtered.push(arr[i])
+        }
+    }
+    return filtered
+}
+
+//let filtered = [3,4,5,6,7].filter(greaterThan)
+console.log(greaterThan(2,7,[1,2,3,4,5,6,7,8,9,10]))
+
