@@ -240,3 +240,35 @@ console.log(NEWmessage)
 
 // console.log(map1);
 // // expected output: Array [2, 8, 18, 32]
+
+let arr = [
+    {id:"toby"},
+    {id:7010},
+    {id:"hawkes"},
+    {id:2022},
+]
+
+let invalidEntries = 0
+
+function filterByID(item) {
+  if (Number.isFinite(item.id) && item.id !== 0) {
+    return true
+  }
+  invalidEntries++
+  return false;
+}
+
+let arrByID = arr.filter(filterByID)
+
+console.log('Filtered Array\n', arrByID)
+
+console.log('Number of Invalid Entries = ', invalidEntries)
+
+function onlyNumbers(arr) {
+    return arr.filter(val => Number.isInteger(val))
+}
+
+function addByOne(num){
+    return num + 1
+}
+console.log(addByOne(3))
